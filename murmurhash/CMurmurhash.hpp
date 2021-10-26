@@ -9,6 +9,8 @@
 
 namespace mmhash {
 
+using std::uint64_t;
+
 class CMurmurhash {
 private:
     std::string dict;
@@ -34,6 +36,7 @@ public:
     uint64_t hash64a(const void* key, size_t len, unsigned int seed);
     uint64_t hash64b(const void* key, size_t len, unsigned int seed);
 };
+
 }
 
 #endif
