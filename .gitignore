@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Python Extension
+dist/
+build/
+*.egg-info/
+MANIFEST

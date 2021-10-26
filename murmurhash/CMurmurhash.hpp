@@ -1,15 +1,13 @@
 #ifndef MURMURHASH_HPP
 #define MURMURHASH_HPP
 
-#include <cstdint>
+#include <stdint.h>
 #include <cstddef>
 #include <string>
 #include <map>
 #include <cmath>
 
 namespace mmhash {
-
-using std::uint64_t;
 
 class CMurmurhash {
 private:

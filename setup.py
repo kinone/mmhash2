@@ -2,7 +2,7 @@ from distutils.core import setup, Extension
 
 setup(
     name='mmhash2',
-    version='1.6',
+    version='1.7',
     ext_modules=[
         Extension('mmhash2',
                   sources=['murmurhash/CMurmurhash.cpp', 'mmhash2.cpp'],
