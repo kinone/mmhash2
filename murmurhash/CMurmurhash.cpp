@@ -1,5 +1,4 @@
 #include "CMurmurhash.hpp"
-#include <iostream>
 
 using namespace std;
 using namespace mmhash;
