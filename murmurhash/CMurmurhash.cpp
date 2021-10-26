@@ -5,6 +5,7 @@ using namespace mmhash;
 
 std::string CMurmurhash::dechex(uint64_t from) {
     std::string str = "";
+    
     int left = from % 16;
     from = from >> 4;
     if (from > 0) {
@@ -20,8 +21,8 @@ std::string CMurmurhash::dechex(uint64_t from) {
 }
 
 std::string CMurmurhash::base62encode(uint64_t from) {
-
     std::string str = "";
+
     int left = from % 62;
     from = from / 62;
     if (from > 0) {
